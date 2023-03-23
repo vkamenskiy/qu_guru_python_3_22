@@ -44,3 +44,7 @@ class DemoQaWithEnv:
                 'addtocart_43.EnteredQuantity': 1
             }
         )
+
+    @property
+    def session_reqres(self):
+        return self.reqres
